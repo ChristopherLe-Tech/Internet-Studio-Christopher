@@ -1,0 +1,35 @@
+html {
+		padding-top: 25px;
+}
+
+h1 {
+		font-family: "Arimo", sans-serif;
+		font-size: 40px;
+		color:#F4FDFF;
+		
+}
+
+body {
+		width: 80%;
+		padding: 20px;
+		margin: 0 auto;
+		border-radius: 10px;
+		background-color: #85bcc7;
+}
+
+h2 {
+		
+		font-family: "Space Mono", sans-serif;
+		font-size: 30px;
+}
+
+img {
+
+		width: 375px;
+		height: 375px;
+}
+
+p {
+		Font-size: 20px;
+		font-family: "Space Mono";
+}

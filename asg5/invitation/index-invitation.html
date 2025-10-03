@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Dinner Invitation</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dynalight&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <link href="styles.css" rel="stylesheet">
+
+</head>
+<body>
+
+  <h1>You're Invited to Dinner!</h1>
+
+ 
+  <section class="guest">
+    <img src="img/Anakin Skywalker.jpg">
+    <h2>Anakin Skywalker</h2>
+    <p>
+      Anakin Skywalker is invited because he represents the tragedy of the "Chosen One." Destined to bring balance to the Force, his fear and anger eventually lead him down the path of Darth Vader. His journey is a powerful story of how good intentions can become corrupted, and I’d like to ask him how he sees his choices now.
+    </p>
+  </section>
+
+  <section class="guest">
+    <img src="img/Paul Atreides.jpg">
+    <h2>Paul Atreides</h2>
+    <p>
+      Paul Atreides is welcomed as another "Chosen One" whose rise to power comes with immense cost. Though he begins as a reluctant hero fighting for survival, his eventual transformation into a messianic ruler shows how even the savior of a people can become a figure of oppression. His perspective on destiny and free will would make for fascinating dinner conversation.
+    </p>
+  </section>
+
+ 
+  <section class="guest">
+    <img src="img/Eren Yeager.jpg">
+    <h2>Eren Yeager</h2>
+    <p>
+      Eren Yeager is invited because his path mirrors both Anakin and Paul. Once a symbol of hope and freedom, his determination to save his people leads him to destruction and violence. His fall into darkness highlights the dangers of obsession with destiny and the blurred line between hero and villain. He’d bring a fiery passion to the table.
+    </p>
+  </section>
+
+ <section class="menu">
+  <h2>Dinner Menu</h2>
+  <ul>
+    <li>Appetizer: Loaded Potato, Bread</li>
+    <br>
+    <li>Main Course: Sandworm Wellington</li>
+    <br>
+    <li>Dessert: Blue Milk </li>
+  </ul>
+</section>
+
+  <h2>RSVP</h2>
+  <form>
+    <label for="name">Your Name:</label>
+    <input type="text" id="name" name="name">
+
+    <label>Will you be bringing a guest?</label>
+
+    <br><label for="yes">Yes</label>
+    <input type="radio" id="yes" name="guest" value="yes">
+    
+    <br><label for="no">No</label>
+    <input type="radio" id="no" name="guest" value="no">
+    
+    <label for="diet">Dietary Preferences:</label>
+    <textarea id="diet" name="diet"></textarea>
+    <br>
+    <button type="submit">Submit RSVP</button>
+  </form>
+
+</body>
+</html>
