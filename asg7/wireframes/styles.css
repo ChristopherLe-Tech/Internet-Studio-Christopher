@@ -1,0 +1,71 @@
+/* public-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/public-sans-v21-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* noto-serif-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Noto Serif';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/noto-serif-v33-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+body {
+      margin: 0;
+      font-family: "Public Sans";
+      background-image: url('img/darkpaths.jpg');
+      background-size: cover;
+      background-position: center;
+      color: #E6E6E6;
+      line-height: 1.7; /* Modified leading for paragraph readability */
+      padding: 40px;
+     
+    }
+
+h1, h2, h3 {
+      font-family: "Noto Serif";
+      color: #E3B23C;
+    }
+
+h1 {
+      font-size: 2.5em;
+      text-align: center;
+      margin-bottom: 0.5em;
+    }
+
+h2 {
+      font-size: 1.8em;
+      border-bottom: 2px solid #E3B23C;
+      padding-bottom: 5px;
+    }
+
+h3 {
+      font-size: 1.4em;
+      margin-top: 1.5em;
+      color: #FFD56B;
+    }
+
+p {
+      font-size: 1em;
+      color: #F5F5F5;
+      max-width: 800px;
+      margin: 0 auto 20px auto;
+    }
+
+.wireframes {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+.wireframes img {
+      width: 45%;
+      margin: 10px;
+      border: 2px solid #E3B23C;
+      border-radius: 8px;
+    }

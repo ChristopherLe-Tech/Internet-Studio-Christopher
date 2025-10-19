@@ -1,0 +1,116 @@
+/* 
+      .--..--..--..--..--..--.
+    .' \  (`._   (_)     _   \
+  .'    |  '._)         (_)  |
+  \ _.')\      .----..---.   /
+  |(_.'  |    /    .-\-.  \  |
+  \     0|    |   ( O| O) | o|
+   |  _  |  .--.____.'._.-.  |
+   \ (_) | o         -` .-`  |
+    |    \   |`-._ _ _ _ _\ /
+    \    |   |  `. |_||_|   |
+    | o  |    \_      \     |     -.   .-.
+    |.-.  \     `--..-'   O |     `.`-' .'
+  _.'  .' |     `-.-'      /-.__   ' .-'
+.' `-.` '.|='=.='=.='=.='=|._/_ `-'.'
+`-._  `.  |________/\_____|    `-.'
+   .'   ).| '=' '='\/ '=' |
+   `._.`  '---------------'
+           //___\   //___\
+             ||       ||
+             ||_.-.   ||_.-.
+            (_.--__) (_.--__)
+       
+
+ Insert all your glorious CSS styles below! */
+ /* add 2 more fonts outside from what we did in class */
+
+/* afacad-flux-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Afacad Flux';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/afacad-flux-v4-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* afacad-flux-900 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Afacad Flux';
+  font-style: normal;
+  font-weight: 900;
+  src: url('fonts/afacad-flux-v4-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* adamina-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Adamina';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/adamina-v22-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* noto-serif-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Noto Serif';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/noto-serif-v33-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* public-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/public-sans-v21-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+p {
+  font-family: 'Public Sans';
+}
+
+body {
+      font-family: "Public Sans";
+      background-color: #697cb8;
+      color: #f5f5f5;
+      margin: 40px;
+      line-height: 1.6;
+    }
+
+header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+h1 {
+      color: #ff3838;
+      text-shadow: 2px 2px #000;
+      font-family: 'Noto Serif';
+    }
+
+h2 {
+      color: #00b4d8;
+      font-family: 'Noto Serif';
+    }
+
+img {
+      border-radius: 10px;
+      height:300px;
+      width: 300px;
+    }
+
+section {
+      width: 65%;
+      padding-right: 20px;
+    }
+
+aside {
+      width: 30%;
+      background-color: #1f2833;
+      padding: 15px;
+      border-radius: 10px;
+    }
