@@ -1,0 +1,91 @@
+
+/* playfair-display-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/playfair-display-v40-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  line-height: 1.65;
+  margin: 0;
+  padding: 2em;
+  background-color: #1A2238; /* Midnight Blue */
+  color: #F5F5F5; /* Soft White */
+}
+
+p {
+  font-size: 1em;
+  max-width: 700px;
+  margin: 1em auto;
+  background-color: #3e92cc; /* Sky Teal */
+  padding: 1em;
+  border-radius: 8px;
+}
+
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  line-height: 1.15;
+  text-align: center;
+}
+
+h1, .text-size-h1 {
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: 400;
+  margin-top: 0;
+  font-size: 1.38em;
+  color: #E3B23C; /* Dusty Gold */
+}
+
+h2, .text-size-h2 {
+  font-size: 1.3em;
+  color: #3E92CC; /* Sky Teal */
+}
+
+h3, .text-size-h3 {
+  font-size: 1.21em;
+}
+
+h4, .text-size-h4 {
+  font-size: 1.14em;
+}
+
+h5, .text-size-h5 {
+  font-size: 1.07em;
+}
+
+.text-caption {
+  font-size: 0.94em;
+}
+
+small, .text-small {
+  font-size: 0.88em;
+}
+
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+
+li {
+  font-size: 1em;
+  margin: 0.5em 0;
+}
+
+.chosen {
+  color: #E3B23C; /* Dusty Gold */
+  font-weight: bold;
+  font-size: 1.2em;
+}
