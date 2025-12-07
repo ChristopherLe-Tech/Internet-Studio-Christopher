@@ -1,0 +1,102 @@
+/* newsreader-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Newsreader';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/newsreader-v26-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* lexend-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/lexend-v26-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+body {
+  margin: 0;
+  font-family: 'Lexend';
+  background-image: url("images/gamebg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #e8fff7;
+  padding: 20px;
+  line-height: 1.5;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.55);
+  z-index: -1;
+}
+
+h1 {
+  font-family: 'Newsreader';
+  font-size: 42px;
+  color: #18e0a5; /* teal */
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.intro {
+  font-size: 16px;
+  max-width: 850px;
+  margin: 0 auto 30px auto;
+  text-align: center;
+  color: #d6fff4;
+}
+
+.jobs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* individual job card */
+.job {
+  background: rgba(0, 0, 0, 0.55);
+  border-radius: 12px;
+  padding: 16px;
+  width: 300px;
+  text-align: center;
+  border: 1px solid rgba(255,255,255,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Hover animation */
+.job:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.6);
+}
+
+.job img {
+  width: 300px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-family: 'Newsreader';
+  font-size: 22px;
+  color: #18e0a5; /* teal */
+  margin: 8px 0;
+}
+
+.job a {
+  color: #0aa880;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.desc {
+  font-size: 14px;
+  color: #c9ece4;
+  margin-top: 10px;
+}
